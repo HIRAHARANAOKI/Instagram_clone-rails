@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  devise_for :users,
+  controllers: {registration: 'registrations'}
 root 'pages#home'
+
+  # asオプションでルーティングに名前をつける事ができる。下記ではuse_pathが生成されているため、コントローラー、ヘルパー、ビューで使える
+  get '/users/:id', to: 'users#show', as: 'user'
 end

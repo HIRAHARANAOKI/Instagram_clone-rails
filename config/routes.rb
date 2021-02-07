@@ -1,8 +1,13 @@
 Rails.application.routes.draw do
   devise_for :users,
-  controllers: {registration: 'registrations'}
-root 'pages#home'
+             controllers: { registration: 'registrations' }
+
+  root 'posts#index'
 
   # asオプションでルーティングに名前をつける事ができる。下記ではuse_pathが生成されているため、コントローラー、ヘルパー、ビューで使える
   get '/users/:id', to: 'users#show', as: 'user'
+
+  resources :posts, only: %i(new create index) do
+    resources :photos, only: %i(create)
+  end
 end

@@ -6,6 +6,8 @@ class User < ApplicationRecord
 
   validates :name, presence: true, length: { maximum: 50}
 
+  has_many :posts, dependent: :destroy
+
   # パスワードなしでもプロフィールの情報を編集できるように
     def update_without_current_password(params, *options)
 

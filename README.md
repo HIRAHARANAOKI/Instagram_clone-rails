@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## インスタグラムのクローンとしてメイン機能部分をRailsで作成しました。
 
-Things you may want to cover:
+## 付けた機能
+* ユーザー登録・編集・削除
+* 投稿・削除
+* お気に入り
+* コメント
 
-* Ruby version
+## 難しかった部分
+お気に入り機能、コメント機能をつけるのが難しかった。しかし、どちらも類似点が多かったため数をこなせば比較的楽に実装できそう。
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 反省点
+formでのAjax通信の理解不足。

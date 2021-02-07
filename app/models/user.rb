@@ -8,6 +8,7 @@ class User < ApplicationRecord
 
   has_many :posts, dependent: :destroy
   has_many :likes
+  has_many :comments
 
   # パスワードなしでもプロフィールの情報を編集できるように
     def update_without_current_password(params, *options)

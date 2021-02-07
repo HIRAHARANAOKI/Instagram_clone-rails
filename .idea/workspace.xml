@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9eab5115-7cbb-432d-9941-250db3c49d24" name="Default Changelist" comment="Add devise">
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_comment_list.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/javascript/stylesheets/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/stylesheets/posts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/post.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/post.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partial/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partial/_footer.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
@@ -177,7 +181,7 @@
       <workItem from="1612519409686" duration="1087000" />
       <workItem from="1612661522291" duration="3069000" />
       <workItem from="1612676878672" duration="10069000" />
-      <workItem from="1612692445742" duration="2110000" />
+      <workItem from="1612692445742" duration="7533000" />
     </task>
     <task id="LOCAL-00001" summary="Add devise">
       <created>1612665120036</created>

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eab5115-7cbb-432d-9941-250db3c49d24" name="Default Changelist" comment="" />
+    <list default="true" id="9eab5115-7cbb-432d-9941-250db3c49d24" name="Default Changelist" comment="Add devise" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,8 +165,16 @@
       <updated>1612505959260</updated>
       <workItem from="1612505962588" duration="8098000" />
       <workItem from="1612519409686" duration="1087000" />
-      <workItem from="1612661522291" duration="2603000" />
+      <workItem from="1612661522291" duration="2896000" />
     </task>
+    <task id="LOCAL-00001" summary="Add devise">
+      <created>1612665120036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612665120036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,5 +191,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add devise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add devise" />
   </component>
 </project>
